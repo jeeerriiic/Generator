@@ -4,3 +4,6 @@ set up repo
 2/27/2024
 set up @medias layout
     @medias are desktop first
+added folder to organize homePage & titlePage
+homePage
+    working on Color Generator section

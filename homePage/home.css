@@ -1,3 +1,24 @@
+/* Body */
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: -1px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* Body */
+
+/* Color Generator */
+#colorGen {
+    border: 2px solid red;
+}
+
+.color {
+    height: 300px;
+}
+/* Color Generator */
+
 /* Media */
 /* Container Utility */
 .container {
