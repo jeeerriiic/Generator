@@ -1,0 +1,6 @@
+2/26/2024
+set up repo
+
+2/27/2024
+set up @medias layout
+    @medias are desktop first
