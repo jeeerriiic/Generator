@@ -7,3 +7,7 @@ set up @medias layout
 added folder to organize homePage & titlePage
 homePage
     working on Color Generator section
+
+3/1/2024
+homePage
+    working on html/css * sections
