@@ -10,26 +10,34 @@
 <body>
     <!-- Color Generator -->
     <section id="colorGen" class="container">
-        <h1>Color Generator</h1>
-        <button class="colorbtn">Generate</button>
+        <div class="colorCont">
+            <h1>Color Generator</h1>
+            <p id="hexColor"></p>
+            <button id="colorBtn">Generate</button>
+        </div>
     </section>
     <!-- Color Generator -->
 
     <!-- Number Generator -->
     <section id="numberGen" class="container">
         <h1>Number Generator</h1>
-        <span class="number">0</span>
-        <button class="numberbtn">Generate</button>
+        <div class="numberEntryBar">
+            <input type="text" id="number" placeholder="Random Number">
+        </div>
+        <button class="numberBtn">Generate</button>
     </section>
     <!-- Number Generator -->
 
     <!-- Username Generator -->
     <section id="usernameGen" class="container">
         <h1>Username Generator</h1>
-        <div class="entryBar">
-            <input type="text" id="username" placeholder="Username">
+        <div class="usernameEntryBar">
+            <input type="text" id="username" placeholder="Random Username">
         </div>
+        <button class="usernameBtn">Generate</button>
     </section>
     <!-- USername Generator -->
+
+    <script src="home.js"></script>
 </body>
 </html>

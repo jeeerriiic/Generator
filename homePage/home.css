@@ -1,14 +1,20 @@
 /* Body */
 body {
     font-size: 1rem;
+    font-family: sans-serif;
     margin: -1px;
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: #eee;
 }
 /* Body */
+
+/* All */
 section {
     height: 250px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     border: 2px solid red;
 }
 
@@ -16,30 +22,31 @@ section h1 {
     font-size: 3rem;
 }
 
+input {
+    margin-bottom: 2%;
+}
+
 button {
-    width: 150px;
-    font-size: 1.5rem;
+    width: 100px;
+    font-size: 1.2rem;
     border-radius: 5px;
 }
 /* All */
 
-/* All */
-
 /* Color Generator */
-#colorGen h1 {
-    font-size: 3rem;
+.colorCont {
     border: 2px solid red;
 }
 /* Color Generator */
 
 /* Number Generator */
-#numberGen span {
-    display: block;
-}
+
 /* Number Generator */
 
 /* Username Generator */
-
+.entryBar {
+    margin-bottom: 2%;
+}
 /* Username Generator */
 
 /* Media */
