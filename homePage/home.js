@@ -1,7 +1,7 @@
 // Color Generator
 let container = document.getElementById('colorGen');
 let button = document.getElementById('colorBtn');
-let colorContainer = document.getElementById('colorCont');
+let text = document.getElementById('colorText');
 let displayHex = document.querySelector('p');
 // Color Generator
 
@@ -18,11 +18,13 @@ function getNextRandomColor(){
     for (let i = 0; i < 6; i++){
         let getRandomColor = validCharacters.charAt(randomIntFromInterval(0,15));
         color += getRandomColor;
+        console.log(getRandomColor);
     };
 
     displayHex.innerHTML = color;
+    displayHex.style.textShadow = "1px 0 8px" + color;
     container.style.backgroundColor = color;
-    colorContainer.style.boxShadow = "0px 0px 25px 8px #0000009c";
+    text.style.textShadow = "1px 0 8px" + color;
 }
 
 getNextRandomColor();
