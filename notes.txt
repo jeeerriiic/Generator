@@ -18,5 +18,6 @@ homePage
 
 3/3/2024
 homePage
-    workin on Color Gnerator css/js
+    working on Color Gnerator css/js
         trying to get text and box shadow to change with the random color whenever the generate button is used
+    looking for a font style for Color Generator header

@@ -22,9 +22,12 @@ function getNextRandomColor(){
     };
 
     displayHex.innerHTML = color;
-    displayHex.style.textShadow = "1px 0 8px" + color;
-    container.style.backgroundColor = color;
-    text.style.textShadow = "1px 0 8px" + color;
+    displayHex.style.color = color;
+    container.style.border = "5px solid" + color;
+    text.style.color = color;
+    button.style.color = color;
+    button.style.border = "2px solid" + color;
+    button.style.boxShadow = "0 0 10px 1px" + color;
 }
 
 getNextRandomColor();

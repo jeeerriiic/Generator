@@ -15,6 +15,7 @@ section {
     height: 250px;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 10px;
     border: 2px solid red;
 }
 
@@ -27,7 +28,7 @@ input {
 }
 
 button {
-    width: 100px;
+    width: 125px;
     font-size: 1.2rem;
     border-radius: 5px;
 }
@@ -35,19 +36,42 @@ button {
 
 /* Color Generator */
 #colorGen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     transition: all 0.3s ease;
 }
 
-#colorCont {
-    color: #fff;
-    background-color: #00000069;
-    padding: 10px;
-    border: 1px solid #000;
-    box-shadow: 0 0 20px 10px #0000009c;
+#colorGen h1 {
+    font-size: 8rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-shadow: 2px 0 3px #fff;
+    transition: all 0.3s ease;
+}
+
+#colorGen p {
+    font-size: 2rem;
+    margin: 10px 0;
+    text-shadow: 2px 0 3px #fff;
+    transition: all 0.3s ease;
+}
+
+#colorGen button {
+    font-size: 1.5rem;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    text-shadow: 1px 0 2px #fff;
+    box-shadow: 0 0 10px 1px #000;
+    transition: all 0.3s ease;
+}
+
+#colorGen button:hover {
+    width: 150px;
+    transition: all 0.3s ease;
 }
 /* Color Generator */
 
