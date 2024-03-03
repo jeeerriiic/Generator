@@ -34,8 +34,19 @@ button {
 /* All */
 
 /* Color Generator */
+#colorGen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .colorCont {
-    border: 2px solid red;
+    color: #fff;
+    background-color: #00000089;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 0 0 20px 10px #d00;
 }
 /* Color Generator */
 
