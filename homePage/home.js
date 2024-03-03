@@ -1,6 +1,7 @@
 // Color Generator
 let container = document.getElementById('colorGen');
 let button = document.getElementById('colorBtn');
+let colorContainer = document.getElementById('colorCont');
 let displayHex = document.querySelector('p');
 // Color Generator
 
@@ -21,6 +22,7 @@ function getNextRandomColor(){
 
     displayHex.innerHTML = color;
     container.style.backgroundColor = color;
+    colorContainer.style.boxShadow = "0px 0px 25px 8px #0000009c";
 }
 
 getNextRandomColor();
