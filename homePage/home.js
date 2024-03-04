@@ -1,9 +1,14 @@
-// Color Generator
+// Color Generator Variables
 let container = document.getElementById('colorGen');
 let button = document.getElementById('colorBtn');
 let text = document.getElementById('colorText');
 let displayHex = document.querySelector('p');
-// Color Generator
+// Color Generator Variables
+
+// Number Generator Variables
+let numButton = document.getElementById('numberBtn');
+let numText = document.getElementById('number');
+// Number Generator Variables
 
 // Color Generator
 const validCharacters = '0123456789ABCDEF';
@@ -36,3 +41,15 @@ button.addEventListener('click', function(){
     getNextRandomColor();
 }, false);
 // Color Generator
+
+// Number Generator
+function randNum() {
+    let randomNumber = Math.floor((Math.random() * 26) + 1);
+
+    numText.innerHTML = randomNumber;
+}
+
+numButton.addEventListener('click', function(){
+    randNum();
+}, false);
+// Number Generator

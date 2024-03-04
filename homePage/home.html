@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Color Generator Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Color Generator Font -->
     <link rel="stylesheet" type="text/css" href="home.css">
     <title>GENERATOR</title>
 </head>
@@ -10,32 +15,29 @@
 <body>
     <!-- Color Generator -->
     <section id="colorGen" class="container">
+        <div class="backgroundOverlay">
             <h1 id="colorText">Color Generator</h1>
             <p id="hexColor"></p>
-            <button id="colorBtn">Generate</button>
+            <button id="colorBtn">generate</button>
+        </div>
     </section>
     <!-- Color Generator -->
 
     <!-- Number Generator -->
     <section id="numberGen" class="container">
         <h1>Number Generator</h1>
-        <div class="numberEntryBar">
-            <input type="text" id="number" placeholder="Random Number">
-        </div>
-        <button class="numberBtn">Generate</button>
+        <p id="number">0</p>
+        <button id="numberBtn">Generate</button>
     </section>
     <!-- Number Generator -->
 
     <!-- Username Generator -->
     <section id="usernameGen" class="container">
         <h1>Username Generator</h1>
-        <div class="usernameEntryBar">
-            <input type="text" id="username" placeholder="Random Username">
-        </div>
+        <p id="username">Username</p>
         <button class="usernameBtn">Generate</button>
     </section>
     <!-- USername Generator -->
-
     <script src="home.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ body {
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #eee;
+    background: linear-gradient(to bottom right, #fff, #adadad, #5a5a5a, #000000);
 }
 /* Body */
 
@@ -16,7 +16,7 @@ section {
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 10px;
-    border: 2px solid red;
+    box-shadow: 0 0 10px 1px #000;
 }
 
 section h1 {
@@ -36,41 +36,51 @@ button {
 
 /* Color Generator */
 #colorGen {
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 0.5rem;
+    padding: 0;
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
     transition: all 0.3s ease;
 }
 
+.backgroundOverlay {
+    background-color: #00000036;
+    height: 248px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
 #colorGen h1 {
-    font-size: 8rem;
-    letter-spacing: 0.2rem;
+    font-size: 7rem;
+    width: 100%;
     margin: 0;
     text-decoration: underline;
     text-underline-offset: 15px;
-    text-shadow: 2px 0 3px #fff;
+    text-shadow: 2px 0 3px #000;
     transition: all 0.3s ease;
 }
 
 #colorGen p {
     font-size: 2rem;
     margin: 10px 0;
-    text-shadow: 2px 0 3px #fff;
+    text-shadow: 2px 0 3px #000;
     transition: all 0.3s ease;
 }
 
 #colorGen button {
     font-size: 1.5rem;
+    font-family: "Lobster", sans-serif;
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    text-shadow: 1px 0 2px #fff;
-    box-shadow: 0 0 10px 1px #000;
+    text-shadow: 1px 0 2px #000;
     transition: all 0.3s ease;
 }
 
 #colorGen button:hover {
-    width: 150px;
+    width: 200px;
     transition: all 0.3s ease;
 }
 /* Color Generator */
