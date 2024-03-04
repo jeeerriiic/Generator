@@ -86,7 +86,19 @@ button {
 /* Color Generator */
 
 /* Number Generator */
+#numberGen {
+    font-family: "Namdhinggo", serif;
+    letter-spacing: 0.5rem;
+    padding: 0;
+}
 
+#numberGen h1 {
+    font-size: 7rem;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    text-shadow: 2px 0 3px #000;
+}
 /* Number Generator */
 
 /* Username Generator */
