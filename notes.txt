@@ -33,3 +33,6 @@ homePage
 titlePage
     working on html/css/js
         Side Navbar working
+    updated Side Navbar code
+        was not working properly
+    cleaned up css
