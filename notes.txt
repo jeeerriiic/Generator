@@ -28,3 +28,8 @@ homePage
     working on Username Generator js
     Username Generator js finished
     working on Number & Username Generator css
+
+3/6/2024
+titlePage
+    working on html/css/js
+        Side Navbar working
