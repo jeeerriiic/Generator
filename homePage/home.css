@@ -90,6 +90,7 @@ button {
     font-family: "Namdhinggo", serif;
     letter-spacing: 0.5rem;
     padding: 0;
+    border: 5px solid #fff;
 }
 
 #numberGen h1 {
@@ -99,11 +100,16 @@ button {
     margin: 0;
     text-shadow: 2px 0 3px #000;
 }
+
+#numberGen button {
+    font-family: "Namdhinggo", serif;
+}
 /* Number Generator */
 
 /* Username Generator */
-.entryBar {
-    margin-bottom: 2%;
+#usernameGen {
+    padding: 0;
+    border: 5px solid red;
 }
 /* Username Generator */
 

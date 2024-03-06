@@ -3,17 +3,22 @@ let container = document.getElementById('colorGen');
 let button = document.getElementById('colorBtn');
 let text = document.getElementById('colorText');
 let displayHex = document.querySelector('p');
+
+const validCharacters = '0123456789ABCDEF';
+const hexDecimalLength = 6;
 // Color Generator Variables
 
 // Number Generator Variables
-let numButton = document.getElementById('numberBtn');
 let numText = document.getElementById('number');
+let numButton = document.getElementById('numberBtn');
 // Number Generator Variables
 
-// Color Generator
-const validCharacters = '0123456789ABCDEF';
-const hexDecimalLength = 6;
+// Username Generator Variables
+let userText = document.getElementById('username');
+let userButton = document.getElementById('usernameBtn');
+// Username Generator Variables
 
+// Color Generator
 function randomIntFromInterval(min, max){
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
@@ -23,7 +28,7 @@ function getNextRandomColor(){
     for (let i = 0; i < 6; i++){
         let getRandomColor = validCharacters.charAt(randomIntFromInterval(0,15));
         color += getRandomColor;
-        console.log(getRandomColor);
+        // console.log(getRandomColor);
     };
 
     displayHex.innerHTML = color;
@@ -49,7 +54,13 @@ function randNum() {
     numText.innerHTML = randomNumber;
 }
 
+randNum();
+
 numButton.addEventListener('click', function(){
     randNum();
 }, false);
 // Number Generator
+
+// Username Generator
+
+// Username Generator

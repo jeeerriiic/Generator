@@ -22,3 +22,7 @@ homePage
         trying to get text and box shadow to change with the random color whenever the generate button is used
     looking for a font style for Color Generator header
     working on Number Generator css/js
+
+3/5/2024
+homePage
+    working on Username Generator jss
