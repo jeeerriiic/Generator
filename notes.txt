@@ -25,4 +25,6 @@ homePage
 
 3/5/2024
 homePage
-    working on Username Generator jss
+    working on Username Generator js
+    Username Generator js finished
+    working on Number & Username Generator css
