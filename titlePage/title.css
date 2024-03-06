@@ -52,6 +52,11 @@ body {
     transition: margin-left .5s;
     border: 2px solid red;
 }
+
+#openBtn {
+    font-size: 2rem;
+    cursor: pointer;
+}
 /* Landing */
 
 /* Media */

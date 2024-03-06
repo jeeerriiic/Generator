@@ -36,3 +36,4 @@ titlePage
     updated Side Navbar code
         was not working properly
     cleaned up css
+    working on Page Content
