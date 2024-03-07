@@ -9,8 +9,8 @@ body {
 }
 /* Body */
 
-/* Navbar */
-#mySidenav {
+/* Side Navbar */
+#sidenav {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +23,7 @@ body {
     transition: 0.5s;
 }
 
-#mySidenav a {
+#sidenav a {
     display: block;
     font-size: 2rem;
     padding: 8px 8px 8px 32px;
@@ -32,35 +32,50 @@ body {
     transition: 0.3s;
 }
 
-#mySidenav a:hover {
+#sidenav a:hover {
     color: #f1f1f1;
 }
 
-#mySidenav .closebtn {
+#sidenav .closebtn {
     font-size: 2rem;
     position: absolute;
     top: 0;
     right: 25px;
     margin-left: 50px;
 }
-/* Navbar */
+/* Side Navbar */
 
 /* Landing */
 #main {
     padding: 0 0 0 50px;
     transition: margin-left .5s;
-    /* border: 2px solid red; */
 }
 
-.headerNav {
+/* Landing Navbar */
+.mainNav {
     display: flex;
     justify-content: space-between;
+    border: 2px solid red;
+}
+
+.mainNav h1 {
+    font-size: 5rem;
+    height: 85px;
+    margin-top: 0;
 }
 
 #openBtn {
     font-size: 2rem;
     cursor: pointer;
+    height: 40px;
 }
+/* Landing Navbar */
+
+/* Landing Content */
+.mainContent h2 {
+    font-size: 1.5rem;
+}
+/* Landing Content */
 /* Landing */
 
 /* Media */
