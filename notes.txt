@@ -42,6 +42,9 @@ titlePage
 titlePage
     working on html/css
 
+--      Randomly Selected Color #AC26DE
+            Use this color with created design
+
 
 
 --      https://stackoverflow.com/questions/71147482/how-to-change-css-media-query-styles-dynamically-using-javascript
