@@ -37,3 +37,13 @@ titlePage
         was not working properly
     cleaned up css
     working on Page Content
+
+3/7/2024
+titlePage
+    working on html/css
+
+
+
+--      https://stackoverflow.com/questions/71147482/how-to-change-css-media-query-styles-dynamically-using-javascript
+
+link for working with javascript adjusting with @media queries      --

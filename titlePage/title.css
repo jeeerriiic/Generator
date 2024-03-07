@@ -3,7 +3,6 @@ body {
     font-size: 1rem;
     font-family: sans-serif;
     margin: -1px;
-    text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
     transition: background-color .5s;
@@ -48,9 +47,14 @@ body {
 
 /* Landing */
 #main {
-    padding: 16px;
+    padding: 0 0 0 50px;
     transition: margin-left .5s;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+
+.headerNav {
+    display: flex;
+    justify-content: space-between;
 }
 
 #openBtn {
