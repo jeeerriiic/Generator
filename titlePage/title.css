@@ -55,11 +55,12 @@ body {
 .mainNav {
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    border-bottom: 2px solid #ff0000;
 }
 
 .mainNav h1 {
     font-size: 5rem;
+    letter-spacing: 0.2rem;
     height: 85px;
     margin-top: 0;
 }
@@ -72,8 +73,13 @@ body {
 /* Landing Navbar */
 
 /* Landing Content */
-.mainContent h2 {
-    font-size: 1.5rem;
+.mainContent {
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+}
+
+.mainContent span {
+    font-weight: bold;
 }
 /* Landing Content */
 /* Landing */
