@@ -1,4 +1,4 @@
-let navbarContainer = document.getElementById('sidenav');
+let navbarContainer = document.querySelector('.sidenav');
 let pageContent = document.getElementById('main');
 let openButton = document.getElementById('openBtn');
 let closeButton = document.getElementById('closeBtn');
