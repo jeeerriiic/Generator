@@ -47,6 +47,8 @@ titlePage
     working on html/css
 generators
     setup files and folders
+colorGenerator
+    working on html/css/js
 
 --      Randomly Selected Color #AC26DE
             Use this color with created design

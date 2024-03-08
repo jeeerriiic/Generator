@@ -1,0 +1,174 @@
+/* Body */
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: -1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: background-color .5s;
+}
+/* Body */
+
+/* Side Navbar */
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    padding-top: 60px;
+    background-color: #111;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    display: block;
+    font-size: 2rem;
+    padding: 8px 8px 8px 32px;
+    color: #818181;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+#closeBtn, #homeBtn {
+    color: #ac26de;
+}
+/* Side Navbar */
+
+/* Main */
+#main {
+    padding: 0 0 0 50px;
+    transition: margin-left .5s;
+    text-align: center;
+}
+
+/* Main Navbar */
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ac26de;
+}
+
+.mainNav h1 {
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    height: 85px;
+    margin-top: 0;
+}
+
+#openBtn {
+    font-size: 2rem;
+    cursor: pointer;
+    height: 40px;
+}
+/* Main Navbar */
+
+/* Content */
+.colorContainer {
+    display: flex;
+    width: 99.75%;
+    height: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #000;
+}
+
+#colorA {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: all 0.3s ease;
+}
+
+#colorB {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transition: all 0.3s ease;
+}
+
+#colorBtn {
+    width: 100px;
+    transition: all 0.5s ease;
+}
+
+#colorBtn:hover {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+/* Content */
+/* Main */
+
+/* Media */
+/* Container Utility */
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/* Container Utility */
+
+/* 2XL */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+/* 2XL */
+
+ /* XL  */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+ /* XL */
+
+/* L */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+/* L */
+
+/* M */
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+/* M */
+
+/* S */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+}
+/* S */
+
+/* XS */
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+}
+/* XS */
+/* Media */
