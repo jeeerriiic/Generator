@@ -49,13 +49,13 @@ body {
 }
 /* Side Navbar */
 
-/* Landing */
+/* Main */
 #main {
     padding: 0 0 0 50px;
     transition: margin-left .5s;
 }
 
-/* Landing Navbar */
+/* Main Navbar */
 .mainNav {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ body {
 }
 
 .mainNav h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     letter-spacing: 0.2rem;
     height: 85px;
     margin-top: 0;
@@ -74,9 +74,9 @@ body {
     cursor: pointer;
     height: 40px;
 }
-/* Landing Navbar */
+/* Main Navbar */
 
-/* Landing Content */
+/* Main Content */
 .mainContent {
     letter-spacing: 0.2rem;
     line-height: 1.5;
@@ -85,8 +85,37 @@ body {
 .mainContent span {
     font-weight: bold;
 }
-/* Landing Content */
-/* Landing */
+/* Description */
+.projectDescription {
+    border-bottom: 2px solid #ac26de;
+}
+
+.projectDescription h2 {
+    font-size: 1.8rem;
+}
+
+.projectDescription p {
+    font-size: 1.2rem;
+}
+/* Description */
+
+/* Generators */
+.generators {
+    border-bottom: 2px solid #ac26de;
+}
+/* Generators */
+/* Main Content */
+
+/* Footer */
+footer {
+    border: 2px solid red;
+}
+
+footer h1 {
+    border: 2px solid red;
+}
+/* Footer */
+/* Main */
 
 /* Media */
 /* Container Utility */
