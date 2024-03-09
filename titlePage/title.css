@@ -67,6 +67,7 @@ body {
     letter-spacing: 0.2rem;
     height: 85px;
     margin-top: 0;
+    text-shadow: #ac26de 1px 0 8px;
 }
 
 #openBtn {
