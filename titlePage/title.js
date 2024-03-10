@@ -13,6 +13,8 @@ function closeNav() {
     pageContent.style.marginLeft = '0px';
 }
 
+closeNav();
+
 openButton.addEventListener('click', function(){
     openNav()
 }, false);

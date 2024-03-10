@@ -50,6 +50,12 @@ generators
 colorGenerator
     working on html/css/js
 
+3/9/2024
+numberGenerator
+    working on html/css/js
+titlePage
+    updated html/js
+
 --      Randomly Selected Color #AC26DE
             Use this color with created design
 
