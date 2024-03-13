@@ -78,7 +78,10 @@ body {
 /* Main Navbar */
 
 /* Content */
-
+.numberCont {
+    text-align: center;
+    border: 2px solid red;
+}
 /* Content */
 /* Main */
 
