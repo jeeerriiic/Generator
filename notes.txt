@@ -71,6 +71,8 @@ changed titlePage to homePage
 3/14/2024
 numberGenerator/usernameGenerator
     updated css
+homePage
+    updated html
 
 --      Randomly Selected Color #AC26DE
             Use this color with created design
