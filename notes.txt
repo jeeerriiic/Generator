@@ -65,6 +65,7 @@ numberGenerator
     working on html/css/js
 usernameGenerator
     working on html/css/js
+    js working
 changed titlePage to homePage
 
 --      Randomly Selected Color #AC26DE
