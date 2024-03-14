@@ -1,83 +1,24 @@
-// Color Generator Variables
-let container = document.getElementById('colorGen');
-let button = document.getElementById('colorBtn');
-let text = document.getElementById('colorText');
-let displayHex = document.querySelector('p');
+let navbarContainer = document.querySelector('.sidenav');
+let pageContent = document.getElementById('main');
+let openButton = document.getElementById('openBtn');
+let closeButton = document.getElementById('closeBtn');
 
-const validCharacters = '0123456789ABCDEF';
-const hexDecimalLength = 6;
-// Color Generator Variables
-
-// Number Generator Variables
-let numText = document.getElementById('number');
-let numButton = document.getElementById('numberBtn');
-// Number Generator Variables
-
-// Username Generator Variables
-let userText = document.getElementById('username');
-let userButton = document.getElementById('usernameBtn');
-
-const userCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-const userLength = 12;
-// Username Generator Variables
-
-// Color Generator
-function randomIntFromInterval(min, max){
-    return Math.floor(Math.random() * (max - min + 1) + min)
+function openNav() {
+    navbarContainer.style.width = '250px';
+    pageContent.style.marginLeft = '250px';
 }
 
-function getNextRandomColor(){
-    let color = '#';
-    for (let i = 0; i < 6; i++){
-        let getRandomColor = validCharacters.charAt(randomIntFromInterval(0,15));
-        color += getRandomColor;
-        // console.log(getRandomColor);
-    };
-
-    displayHex.innerHTML = color;
-    displayHex.style.color = color;
-    container.style.border = "5px solid" + color;
-    text.style.color = color;
-    button.style.color = color;
-    button.style.border = "2px solid" + color;
-    button.style.boxShadow = "0 0 10px 1px" + color;
+function closeNav() {
+    navbarContainer.style.width = '0px';
+    pageContent.style.marginLeft = '0px';
 }
 
-getNextRandomColor();
+closeNav();
 
-button.addEventListener('click', function(){
-    getNextRandomColor();
+openButton.addEventListener('click', function(){
+    openNav()
 }, false);
-// Color Generator
 
-// Number Generator
-function randNum() {
-    let randomNumber = Math.floor((Math.random() * 26) + 1);
-
-    numText.innerHTML = randomNumber;
-}
-
-randNum();
-
-numButton.addEventListener('click', function(){
-    randNum();
+closeButton.addEventListener('click', function(){
+    closeNav()
 }, false);
-// Number Generator
-
-// Username Generator
-function randomUsername() {
-    let username = '';
-    for(let i = 0; i < 12; i++) {
-        let getRandomUsername = userCharacters.charAt(randomIntFromInterval(0, 52));
-        username += getRandomUsername;
-    };
-
-    userText.innerHTML = username;
-}
-
-randomUsername();
-
-userButton.addEventListener('click', function(){
-    randomUsername();
-}, false);
-// Username Generator

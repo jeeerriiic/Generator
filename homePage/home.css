@@ -3,115 +3,120 @@ body {
     font-size: 1rem;
     font-family: sans-serif;
     margin: -1px;
-    text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
-    background: linear-gradient(to bottom right, #fff, #adadad, #5a5a5a, #000000);
+    transition: background-color .5s;
 }
 /* Body */
 
-/* All */
-section {
-    height: 250px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 1px #000;
+/* Side Navbar */
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    padding-top: 60px;
+    background-color: #111;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: 0.5s;
 }
 
-section h1 {
-    font-size: 3rem;
-}
-
-input {
-    margin-bottom: 2%;
-}
-
-button {
-    width: 125px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-}
-/* All */
-
-/* Color Generator */
-#colorGen {
-    font-family: "Lobster", sans-serif;
-    letter-spacing: 0.5rem;
-    padding: 0;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    transition: all 0.3s ease;
-}
-
-.backgroundOverlay {
-    background-color: #00000036;
-    height: 248px;
-    border: 1px solid #000;
-    border-radius: 5px;
-}
-
-#colorGen h1 {
-    font-size: 7rem;
-    width: 100%;
-    margin: 0;
-    text-decoration: underline;
-    text-underline-offset: 15px;
-    text-shadow: 2px 0 3px #000;
-    transition: all 0.3s ease;
-}
-
-#colorGen p {
+.sidenav a {
+    display: block;
     font-size: 2rem;
-    margin: 10px 0;
-    text-shadow: 2px 0 3px #000;
-    transition: all 0.3s ease;
+    padding: 8px 8px 8px 32px;
+    color: #818181;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-#colorGen button {
-    font-size: 1.5rem;
-    font-family: "Lobster", sans-serif;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    text-shadow: 1px 0 2px #000;
-    transition: all 0.3s ease;
+.sidenav a:hover {
+    color: #f1f1f1;
 }
 
-#colorGen button:hover {
-    width: 200px;
-    transition: all 0.3s ease;
-}
-/* Color Generator */
-
-/* Number Generator */
-#numberGen {
-    font-family: "Namdhinggo", serif;
-    letter-spacing: 0.5rem;
-    padding: 0;
-    border: 5px solid #fff;
+.sidenav .closebtn {
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
 }
 
-#numberGen h1 {
-    font-size: 7rem;
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    text-shadow: 2px 0 3px #000;
+#closeBtn, #homeBtn {
+    color: #ac26de;
+}
+/* Side Navbar */
+
+/* Main */
+#main {
+    padding: 0 0 0 50px;
+    transition: margin-left .5s;
 }
 
-#numberGen button {
-    font-family: "Namdhinggo", serif;
+/* Main Navbar */
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ac26de;
 }
-/* Number Generator */
 
-/* Username Generator */
-#usernameGen {
-    padding: 0;
-    border: 5px solid red;
+.mainNav h1 {
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    height: 85px;
+    margin-top: 0;
+    text-shadow: #ac26de 1px 0 8px;
 }
-/* Username Generator */
+
+#openBtn {
+    font-size: 2rem;
+    cursor: pointer;
+    height: 40px;
+}
+/* Main Navbar */
+
+/* Content */
+.mainContent {
+    letter-spacing: 0.2rem;
+    line-height: 1.5;
+}
+
+.mainContent span {
+    font-weight: bold;
+}
+/* Description */
+.projectDescription {
+    border-bottom: 2px solid #ac26de;
+}
+
+.projectDescription h2 {
+    font-size: 1.8rem;
+}
+
+.projectDescription p {
+    font-size: 1.2rem;
+}
+/* Description */
+
+/* Generators */
+.generators {
+    border-bottom: 2px solid #ac26de;
+}
+/* Generators */
+/* Content */
+
+/* Footer */
+footer {
+    border: 2px solid red;
+}
+
+footer h1 {
+    border: 2px solid red;
+}
+/* Footer */
+/* Main */
 
 /* Media */
 /* Container Utility */

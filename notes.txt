@@ -63,6 +63,9 @@ setup Username Generator layout
 3/13/2024
 numberGenerator
     working on html/css/js
+usernameGenerator
+    working on html/css/js
+changed titlePage to homePage
 
 --      Randomly Selected Color #AC26DE
             Use this color with created design

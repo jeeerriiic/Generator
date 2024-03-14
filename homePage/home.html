@@ -3,47 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Color Generator Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <!-- Color Generator Font -->
-
-    <!-- Number Generator Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Number Generator Font -->
     <link rel="stylesheet" type="text/css" href="home.css">
     <title>GENERATOR</title>
 </head>
 
 <body>
-    <!-- Color Generator -->
-    <section id="colorGen" class="container">
-        <div class="backgroundOverlay">
-            <h1 id="colorText">Color Generator</h1>
-            <p id="hexColor"></p>
-            <button id="colorBtn">generate</button>
+    <!-- Side Navbar -->
+    <div class="sidenav" class="container">
+        <a href="javascript:void(0)" id="closeBtn">&times; CLOSE</a>
+        <a href="/generators/colorGenerator/color.html#main">Color Generator</a>
+        <a href="/generators/numberGenerator/number.html#main">Number Generator</a>
+        <a href="/generators/usernameGenerator/username.html#main">Username Generator</a>
+
+        <!-- Home Button Bottom Of Navbar -->
+        <a href="#" id="homeBtn">HOME</a>
+    </div>
+    <!-- Side Navbar -->
+
+    <!-- Main -->
+    <div id="main" class="container">
+        <!-- Main Navbar -->
+        <div class="mainNav">
+            <h1>Generator</h1>
+            <span id="openBtn">&#9776; OPEN</span>
         </div>
-    </section>
-    <!-- Color Generator -->
+        <!-- Main Navbar -->
 
-    <!-- Number Generator -->
-    <section id="numberGen" class="container">
-        <h1>Number Generator</h1>
-        <p id="number">0</p>
-        <button id="numberBtn">Generate</button>
-    </section>
-    <!-- Number Generator -->
+        <!-- Content -->
+        <div class="mainContent">
+            <!-- Description -->
+            <div class="projectDescription">
+                <h2>Created by Jeric Miranda</h2>
+                <p><span>Generator</span> is a personal project that  I created to better my understanding of HTML, CSS, and Javascript. I also created this project for simplicity in design and creativity, instead of spending too much time on certain different aspects of my life. I use this generator to keep things simple and work with whatever the generator has chosen for me. By using the randomly generated outcomes it helps me get more work done or start work sooner rather than thinking of what I am going to do. Not to mention it also helps me build adaptive skills and critical thinking skills when working on creative designs.</p>
+            </div>
+            <!-- Description -->
 
-    <!-- Username Generator -->
-    <section id="usernameGen" class="container">
-        <h1>Username Generator</h1>
-        <p id="username">Username</p>
-        <button id="usernameBtn">Generate</button>
-    </section>
-    <!-- USername Generator -->
+            <!-- Generators -->
+            <div class="generators">
+                <h3>Color Generator</h3>
+                <p>I use the <span>Color Generator</span> whenever I have a problem of taking too much time on what color I want to use whether or not it is for projects I am working on or choosing a color in a video game I am playing.</p>
+    
+                <h3>Number Generator</h3>
+                <p>I use the <span>Number Generator</span> whenever I have multiple options such as what food to eat or where to eat, what kind of character to play in a video game or skills to use, what kind of activity to do at that moment, etc.</p>
+    
+                <h3>Username Generator</h3>
+                <p>I use the <span>Username Generator</span> when I am coming up with a name for the created character I made in a video game.</p>
+            </div>
+            <!-- Generators -->
+        </div>
+        <!-- Content -->
+
+        <!-- Footer -->
+        <footer>
+            <h1>jericsmir@gmail.com</h1>
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- Main -->
     <script src="home.js"></script>
 </body>
 </html>

@@ -53,6 +53,7 @@ body {
 #main {
     padding: 0 0 0 50px;
     transition: margin-left .5s;
+    text-align: center;
 }
 
 /* Main Navbar */
@@ -78,7 +79,33 @@ body {
 /* Main Navbar */
 
 /* Content */
+.usernameCont {
+    font-size: 10rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    border: 2px solid #000;
+}
 
+#username {
+    margin: 0;
+}
+
+#usernameBtn {
+    font-size: 2rem;
+    background-color: #fff;
+    width: 175px;
+    height: 40px;
+    box-shadow: 0 0 8px #ac26de;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#usernameBtn:hover {
+    width: 100%;
+    transition: all 0.5s ease;
+}
 /* Content */
 /* Main */
 
