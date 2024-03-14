@@ -68,6 +68,10 @@ usernameGenerator
     js working
 changed titlePage to homePage
 
+3/14/2024
+numberGenerator/usernameGenerator
+    updated css
+
 --      Randomly Selected Color #AC26DE
             Use this color with created design
 

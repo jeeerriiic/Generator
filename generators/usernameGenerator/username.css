@@ -89,6 +89,7 @@ body {
 
 #username {
     margin: 0;
+    text-shadow: #ac26de 1px 0 8px;
 }
 
 #usernameBtn {
