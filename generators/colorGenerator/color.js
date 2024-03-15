@@ -2,10 +2,12 @@ let containerA = document.getElementById('colorA');
 let containerB = document.getElementById('colorB');
 let containerC = document.getElementById('colorC');
 let containerD = document.getElementById('colorD');
+
 let displayHexA = document.getElementById('hexA');
 let displayHexB = document.getElementById('hexB');
 let displayHexC = document.getElementById('hexC');
 let displayHexD = document.getElementById('hexD');
+
 let button = document.getElementById('colorBtn');
 
 const validCharacters = '0123456789ABCDEF';
