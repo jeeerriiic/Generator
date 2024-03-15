@@ -88,7 +88,7 @@ body {
     text-shadow: #ac26de 1px 0 8px;
 }
 
-.workoutCont {
+.threeDayCont {
     margin-bottom: 2%;
     text-align: left;
     border: 2px solid #000;
@@ -97,13 +97,13 @@ body {
 .principles {
     display: flex;
     justify-content: space-evenly;
-    font-size: 3rem;
     letter-spacing: 0.2rem;
     border-bottom: 2px solid #000;
 }
 
 .principles h3 {
     margin: 0 0 20px 0;
+    font-size: 3rem;
     font-weight: lighter;
 }
 
@@ -112,8 +112,12 @@ body {
     text-underline-offset: 14px;
 }
 
-.workoutProgram {
+.threeDayProgram {
     border: 2px solid red;
+}
+
+.threeDayProgram h4 {
+    font-size: 2rem;
 }
 
 #workoutBtn {
