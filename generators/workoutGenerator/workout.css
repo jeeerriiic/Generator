@@ -79,10 +79,18 @@ body {
 /* Main Navbar */
 
 /* Content */
-.workoutCont {
-    height: 700px;
+.contentHeader {
+    font-size: 5rem;
     margin-top: 2%;
+    margin-bottom: 0;
+    border: 2px solid #000;
+    border-bottom: none;
+    text-shadow: #ac26de 1px 0 8px;
+}
+
+.workoutCont {
     margin-bottom: 2%;
+    text-align: left;
     border: 2px solid #000;
 }
 
@@ -90,14 +98,17 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-size: 3rem;
-    font-weight: bold;
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #000;
+    letter-spacing: 0.2rem;
+    border-bottom: 2px solid #000;
 }
 
 .principles p {
-    margin: 0;
+    margin: 0 0 20px 0;
+}
+
+.principlesHeader {
+    text-decoration: underline;
+    text-underline-offset: 14px;
 }
 
 #workoutBtn {
