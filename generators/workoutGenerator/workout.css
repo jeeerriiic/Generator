@@ -102,13 +102,18 @@ body {
     border-bottom: 2px solid #000;
 }
 
-.principles p {
+.principles h3 {
     margin: 0 0 20px 0;
+    font-weight: lighter;
 }
 
 .principlesHeader {
     text-decoration: underline;
     text-underline-offset: 14px;
+}
+
+.workoutProgram {
+    border: 2px solid red;
 }
 
 #workoutBtn {
