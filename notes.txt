@@ -76,6 +76,9 @@ homePage
 workoutGenerator
     setup folder, html, css, js files
     setup html/css layout
+    working on html/css
+color/number/username Generators
+    updated css
 
 --      Randomly Selected Color #AC26DE
             Use this color with created design

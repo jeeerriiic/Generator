@@ -79,7 +79,42 @@ body {
 /* Main Navbar */
 
 /* Content */
+.workoutCont {
+    height: 700px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid #000;
+}
 
+.principles {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.principles p {
+    margin: 0;
+}
+
+#workoutBtn {
+    font-size: 2rem;
+    background-color: #fff;
+    width: 175px;
+    height: 40px;
+    box-shadow: 0 0 8px #ac26de;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#workoutBtn:hover {
+    width: 100%;
+    transition: all 0.5s ease;
+}
 /* Content */
 /* Main */
 
