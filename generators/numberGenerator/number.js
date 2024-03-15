@@ -1,14 +1,14 @@
 let numText = document.getElementById('number');
 let numButton = document.getElementById('numberBtn');
 
-function randNum() {
-    let randomNumber = Math.floor((Math.random() * 26) + 1);
+function randomNum() {
+    let getRandomNumber = Math.floor((Math.random() * 26) + 1);
 
-    numText.innerHTML = randomNumber;
+    numText.innerHTML = getRandomNumber;
 }
 
-randNum();
+randomNum();
 
 numButton.addEventListener('click', function(){
-    randNum();
+    randomNum();
 }, false);
