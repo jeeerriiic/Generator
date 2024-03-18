@@ -2,7 +2,7 @@ let numText = document.getElementById('number');
 let numButton = document.getElementById('numberBtn');
 
 function randomNum() {
-    let getRandomNumber = Math.floor((Math.random() * 26) + 1);
+    let getRandomNumber = Math.floor((Math.random() * 70) + 1);
 
     numText.innerHTML = getRandomNumber;
 }

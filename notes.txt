@@ -91,6 +91,9 @@ colorGenerator
 workoutGenerator
     working on js
 
+numberGenerator
+add 6 numbers first 5 are 1-70 and last number is 1-25
+
 --      Randomly Selected Color #AC26DE
             Use this color with created design
 
