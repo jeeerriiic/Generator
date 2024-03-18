@@ -1,4 +1,4 @@
-let displayUpper = document.querySelectorAll('.fillInUpper');
+let displayUpper = document.getElementById('fillInUpper');
 
 
 let displayCore = document.getElementById('fillInCore');
@@ -25,8 +25,8 @@ const fullExercises = ['Burpees 4 x 10', 'Mountain Climbers 4 x 30 Seconds', 'Sp
 
 const resistanceExercises = ['Dumbbell Bicep Curls 4 x 12', 'Dumbbell Hammer Curls 4 x 12', 'Dumbbell Side Hammer Curls 4 x 12', 'Dumbbell Tricep Extensions 4 x 20', 'Goblet Squats 4 x 12', 'Dumbbell Lunges 4 x 12', 'Dumbbell Calf Raises 4 x 25', 'Dumbbell Front Raises 4 x 12', 'Dumbbell Lateral Raises 4 x 12', 'Dumbbell Shoulder Presses 4 x 12', 'Dumbbell Side Bends 4 x 12', 'Dumbbell Rows 4 x 12', 'Hand Gripper 4 x 16', 'Standard Push-Ups w/ Baby On Back 4 x 10'];
 
-// function randomUpper() {
-//     let getRandomUpper = Math.floor(Math.random() * (upperExercises.length));
+function randomUpper() {
+    let getRandomUpper = Math.floor(Math.random() * (upperExercises.length));
 
-//     displayUpper.innerHTML = upperExercises[getRandomUpper];
-// }
+    displayUpper.innerHTML = upperExercises[getRandomUpper];
+}
