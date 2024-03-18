@@ -22,6 +22,8 @@ let getRandomUpper = () => {
         randomExercise[i].innerHTML = upperExercises[randomUpper()];
     }
 };
+
+getRandomUpper();
 // Upper Exercises
 
 // Core Exercises
@@ -36,6 +38,8 @@ let getRandomCore = () => {
         randomExercise[i].innerHTML = coreExercises[randomCore()];
     }
 };
+
+getRandomCore();
 // Core Exercises
 
 // Lower Exercises
@@ -50,6 +54,8 @@ let getRandomLower = () => {
         randomExercise[i].innerHTML = lowerExercises[randomLower()];
     }
 };
+
+getRandomLower();
 // Lower Exercises
 
 // Full Exercises
@@ -64,6 +70,8 @@ let getRandomFull = () => {
         randomExercise[i].innerHTML = fullExercises[randomFull()];
     }
 };
+
+getRandomFull();
 // Full Exercises
 
 // Resistance Exercises
@@ -78,6 +86,8 @@ let getRandomResistance = () => {
         randomExercise[i].innerHTML = resistanceExercises[randomResistance()];
     }
 };
+
+getRandomResistance();
 // Resistance Exercises
 
 button.addEventListener('click', function() {
