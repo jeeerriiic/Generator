@@ -87,6 +87,10 @@ workoutGenerator
 colorGenerator
     updated js
 
+3/18/2024
+workoutGenerator
+    working on js
+
 --      Randomly Selected Color #AC26DE
             Use this color with created design
 
