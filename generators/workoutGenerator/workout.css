@@ -86,12 +86,15 @@ body {
     border: 2px solid #000;
     border-bottom: none;
     text-shadow: #ac26de 1px 0 8px;
+    box-shadow: 0 0 8px #ac26de;
 }
 
+/* Three Day Workout Program */
 .threeDayCont {
     margin-bottom: 2%;
     text-align: left;
     border: 2px solid #000;
+    box-shadow: 0 0 8px #ac26de;
 }
 
 .principles {
@@ -113,12 +116,33 @@ body {
 }
 
 .threeDayProgram {
-    border: 2px solid red;
+    padding: 2%;
+    letter-spacing: 0.1rem;
+}
+
+.afterWorkout {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
 }
 
 .threeDayProgram h4 {
     font-size: 2rem;
 }
+
+.threeDayProgram p {
+    font-size: 1.2rem;
+}
+
+#supersets {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+#fullBody {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+/* Three Day Workout Program */
 
 #workoutBtn {
     font-size: 2rem;
