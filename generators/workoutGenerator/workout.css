@@ -81,37 +81,40 @@ body {
 /* Content */
 .contentHeader {
     font-size: 5rem;
-    margin-top: 2%;
+    margin-top: 0;
     margin-bottom: 0;
     border: 2px solid #000;
     border-bottom: none;
+    border-radius: 10px 10px 0 0;
     text-shadow: #ac26de 1px 0 8px;
+}
+
+.threeDayContainer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
     box-shadow: 0 0 8px #ac26de;
 }
 
 /* Three Day Workout Program */
 .threeDayCont {
-    margin-bottom: 2%;
+    margin-bottom: 0;
     text-align: left;
     border: 2px solid #000;
-    box-shadow: 0 0 8px #ac26de;
+    border-radius: 0 0 10px 10px;
 }
 
 .principles {
-    display: flex;
-    justify-content: space-evenly;
     letter-spacing: 0.2rem;
     border-bottom: 2px solid #000;
 }
 
 .principles h3 {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 2%;
     font-size: 3rem;
     font-weight: lighter;
-}
-
-.principlesHeader {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-underline-offset: 14px;
 }
 
@@ -149,6 +152,7 @@ body {
     background-color: #fff;
     width: 175px;
     height: 40px;
+    margin-bottom: 2%;
     box-shadow: 0 0 8px #ac26de;
     border-radius: 10px;
     transition: all 0.5s ease;
