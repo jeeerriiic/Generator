@@ -29,7 +29,6 @@ function randomColorA(){
     displayHexA.innerHTML = color;
     containerA.style.backgroundColor = color;
     containerA.style.width = '25%';
-    containerA.style.borderRight = '2px solid #000';
 }
 // Container A
 
@@ -44,7 +43,6 @@ function randomColorB(){
     displayHexB.innerHTML = color;
     containerB.style.backgroundColor = color;
     containerB.style.width = '25%';
-    containerB.style.borderRight = '2px solid #000';
 }
 // Container B
 
@@ -59,7 +57,6 @@ function randomColorC(){
     displayHexC.innerHTML = color;
     containerC.style.backgroundColor = color;
     containerC.style.width = '25%';
-    containerC.style.borderRight = '2px solid #000';
 }
 // Container C
 

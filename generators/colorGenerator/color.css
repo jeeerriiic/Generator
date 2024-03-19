@@ -86,7 +86,8 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     letter-spacing: 0.2rem;
-    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #ac26de;
 }
 
 .colorContainer p {
@@ -102,6 +103,8 @@ body {
     justify-content: center;
     align-items: end;
     transition: all 0.3s ease;
+    border: 2px solid #000;
+    border-radius: 10px 0 0 10px;
 }
 
 #colorB {
@@ -109,6 +112,9 @@ body {
     justify-content: center;
     align-items: end;
     transition: all 0.3s ease;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #colorC {
@@ -116,6 +122,8 @@ body {
     justify-content: center;
     align-items: end;
     transition: all 0.3s ease;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #colorD {
@@ -123,6 +131,8 @@ body {
     justify-content: center;
     align-items: end;
     transition: all 0.3s ease;
+    border: 2px solid #000;
+    border-radius: 0 10px 10px 0;
 }
 
 #colorBtn {
@@ -130,6 +140,7 @@ body {
     background-color: #fff;
     width: 175px;
     height: 40px;
+    margin-bottom: 2%;
     box-shadow: 0 0 8px #ac26de;
     border-radius: 10px;
     transition: all 0.5s ease;
