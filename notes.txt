@@ -102,6 +102,8 @@ workoutGenerator
     updated html/js
 
 
+!!!!!          NEED TO ADD MEDIA QUERIES CSS/JS FOR ALL PAGES          !!!!!
+
 numberGenerator
 add 6 numbers first 5 are 1-70 and last number is 1-25
 
