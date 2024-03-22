@@ -97,6 +97,10 @@ workoutGenerator
 color/number/username Generators
     updated css
 
+3/22/2024
+workoutGenerator
+    updated html/js
+
 
 numberGenerator
 add 6 numbers first 5 are 1-70 and last number is 1-25

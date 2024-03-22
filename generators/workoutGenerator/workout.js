@@ -8,7 +8,13 @@ const lowerExercises = ['Squats 4 x 25', 'Lunges 4 x 12', 'Side Step to Squat 4 
 
 const fullExercises = ['Burpees 4 x 10', 'Mountain Climbers 4 x 30 Seconds', 'Sprawls 4 x 16'];
 
-const resistanceExercises = ['Dumbbell Bicep Curls 4 x 12', 'Dumbbell Hammer Curls 4 x 12', 'Dumbbell Side Hammer Curls 4 x 12', 'Dumbbell Tricep Extensions 4 x 20', 'Goblet Squats 4 x 12', 'Dumbbell Lunges 4 x 12', 'Dumbbell Calf Raises 4 x 25', 'Dumbbell Front Raises 4 x 12', 'Dumbbell Lateral Raises 4 x 12', 'Dumbbell Shoulder Presses 4 x 12', 'Dumbbell Side Bends 4 x 12', 'Dumbbell Rows 4 x 12', 'Hand Gripper 4 x 16', 'Standard Push-Ups w/ Baby On Back 4 x 10'];
+const resistanceExercisesUpper = ['Dumbbell Bicep Curls 4 x 12', 'Dumbbell Hammer Curls 4 x 12', 'Dumbbell Side Hammer Curls 4 x 12', 'Dumbbell Tricep Extensions 4 x 20', 'Dumbbell Front Raises 4 x 12', 'Dumbbell Lateral Raises 4 x 12', 'Dumbbell Shrugs 4 x 16', 'Dumbbell Shoulder Presses 4 x 12', 'Dumbbell Rows 4 x 12', 'Hand Gripper 4 x 16'];
+
+const resistanceExercisesCore = ['Dumbbell Side Bends 4 x 12'];
+
+const resistanceExercisesLower = ['Goblet Squats 4 x 12', 'Dumbbell Lunges 4 x 12', 'Dumbbell Calf Raises 4 x 25'];
+
+const resistanceExercisesFull = ['Standard Push-Ups w/ Baby On Back 4 x 10'];
 
 // Upper Exercises
 let randomUpper = () => {
@@ -74,22 +80,70 @@ let getRandomFull = () => {
 getRandomFull();
 // Full Exercises
 
-// Resistance Exercises
-let randomResistance = () => {
-    return Math.floor(Math.random() * resistanceExercises.length);
+// Resistance Exercises Upper
+let randomResistanceUpper = () => {
+    return Math.floor(Math.random() * resistanceExercisesUpper.length);
 };
 
-let getRandomResistance = () => {
-    let randomExercise = document.querySelectorAll('.fillInResistance');
+let getRandomResistanceUpper = () => {
+    let randomExercise = document.querySelectorAll('.fillInResistanceUpper');
 
     for(let i = 0; i < randomExercise.length; i++) {
-        randomExercise[i].innerHTML = resistanceExercises[randomResistance()];
+        randomExercise[i].innerHTML = resistanceExercisesUpper[randomResistanceUpper()];
     }
 };
 
-getRandomResistance();
-// Resistance Exercises
+getRandomResistanceUpper();
+// Resistance Exercises Upper
+
+// Resistance Exercises Core
+let randomResistanceCore = () => {
+    return Math.floor(Math.random() * resistanceExercisesCore.length);
+};
+
+let getRandomResistanceCore = () => {
+    let randomExercise = document.querySelectorAll('.fillInResistanceCore');
+
+    for(let i = 0; i < randomExercise.length; i++) {
+        randomExercise[i].innerHTML = resistanceExercisesCore[randomResistanceCore()];
+    }
+};
+
+getRandomResistanceCore();
+// Resistance Exercises Core
+
+// Resistance Exercises Lower
+let randomResistanceLower = () => {
+    return Math.floor(Math.random() * resistanceExercisesLower.length);
+};
+
+let getRandomResistanceLower = () => {
+    let randomExercise = document.querySelectorAll('.fillInResistanceLower');
+
+    for(let i = 0; i < randomExercise.length; i++) {
+        randomExercise[i].innerHTML = resistanceExercisesLower[randomResistanceLower()];
+    }
+};
+
+getRandomResistanceLower();
+// Resistance Exercises Lower
+
+// Resistance Exercises Full
+let randomResistanceFull = () => {
+    return Math.floor(Math.random() * resistanceExercisesFull.length);
+};
+
+let getRandomResistanceFull = () => {
+    let randomExercise = document.querySelectorAll('.fillInResistanceFull');
+
+    for(let i = 0; i < randomExercise.length; i++) {
+        randomExercise[i].innerHTML = resistanceExercisesFull[randomResistanceFull()];
+    }
+};
+
+getRandomResistanceFull();
+// Resistance Exercises Full
 
 button.addEventListener('click', function() {
-    getRandomUpper(), getRandomCore(), getRandomLower(), getRandomFull(), getRandomResistance();
+    getRandomUpper(), getRandomCore(), getRandomLower(), getRandomFull(), getRandomResistanceUpper(), getRandomResistanceCore(), getRandomResistanceLower(), getRandomResistanceFull();
 }, false);
