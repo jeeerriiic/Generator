@@ -101,6 +101,10 @@ color/number/username Generators
 workoutGenerator
     updated html/js
 
+3/25/2024
+workoutGenerator
+    working on html/css
+
 
 !!!!!          NEED TO ADD MEDIA QUERIES CSS/JS FOR ALL PAGES          !!!!!
 
